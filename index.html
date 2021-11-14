@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Template</title>
+    <title>Light-Dark mode</title>
     <link rel="icon" type="image/png" href="favicon.png">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.min.css" />
     <link rel="stylesheet" href="style.css">
@@ -12,6 +12,17 @@
 </head>
 
 <body>
+    <!-- Darm Mode Switch -->
+    <div class="theme-switch-wrapper">
+        <span id="toggle-icon">
+            <span class="toggle-text">Light Mode</span>
+            <i class="fas fa-sun"></i>
+        </span>
+        <label class="theme-switch">
+            <input type="checkbox">
+            <div class="slider round"></div>
+        </label>
+    </div>
     <!-- Navigation -->
     <nav id="nav">
         <a href="#home">home</a>
@@ -24,7 +35,7 @@
     <section id="home">
         <div class="title-group">
             <h1>Custom Title Here</h1>
-            <h2>Welcome to t he Website!</h2>
+            <h2>Welcome to the Website!</h2>
         </div>
     </section>
     <!-- About Section -->
@@ -86,10 +97,19 @@
             <li class="resources__item">
                 <a class="resources__link"
                     href="https://blog.prototypr.io/how-to-design-a-dark-theme-for-your-android-app-3daeb264637"
-                    target="_blank">Dark UI Articles</a>
+                    target="_blank">Dark UI Article</a>
             </li>
             <li class="resources__item">
                 <a class="resources__link" href="https://fontawesome.com/" target="_blank">Font Awesome</a>
+            </li>
+            <li class="resources__item">
+                <a class="resources__link"
+                    href="https://developer.mozilla.org/en-US/docs/Web/API/Document/documentElement"
+                    target="_blank">document.documentElement</a>
+            </li>
+            <li class="resources__item">
+                <a class="resources__link" href="https://developer.mozilla.org/en-US/docs/Web/API/Window/localStorage"
+                    target="_blank">window.localStorage</a>
             </li>
         </ol>
     </section>
